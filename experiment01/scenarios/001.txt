@@ -1,0 +1,9 @@
+move up
+move right
+move right
+move down
+move down
+move down
+msg "Τα μακαρονια που εφαγα αν θα τα ενωσω, σιδηροδρομο θα κανω να ρθω να σε ανταμωσω."
+msg "Αυτο το μηνυμα θα αυτοκαταστραφει..."
+end
