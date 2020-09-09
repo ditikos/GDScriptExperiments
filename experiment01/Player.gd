@@ -29,6 +29,8 @@ func parse_and_execute(content):
 #		print("Item is: %s" % typeof(item))
 		var cmd = Array(item.split(" "))
 		var fn = cmd.pop_front()
+		print(item)
+		get_tree().call_group("master", "debug_message", item)
 		if fn in valid_cmd and self.has_method(fn):
 			match fn:
 				"move":
